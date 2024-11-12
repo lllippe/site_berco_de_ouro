@@ -1,0 +1,23 @@
+.previous-content {
+    background-color: var(--color-tree);
+    text-align: center;
+}
+
+.previous-content-h2 {
+    font-family: var(--font-title-h1);
+    font-size: 6vw;
+    font-weight: 500;
+    padding: 3vw 0;
+    color: var(--color-six);
+}
+
+.previous-content-paragraph {
+    font-family: var(--font-two);
+    font-size: 3vw;
+    color: var(--color-six);
+    padding-bottom: 3vw;
+}
+
+.swipers-desktop {
+    padding: 3vw 0;
+}

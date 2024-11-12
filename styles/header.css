@@ -1,0 +1,37 @@
+.header {
+    background-image: url("../assets/img/berco_de_ouro_grande.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 48vw;
+}
+
+.header-nav {
+    display: flex;
+    font-size: 1.8vw;
+    justify-content: center;
+    padding-top: 1.7vw;
+    font-family: var(--font-one);
+    color: var(--color-six);
+}
+
+.header-nav-item {
+    padding: 0 3vw;
+}
+
+.header-nav-outline {
+    border-left: solid 0.2vw var(--color-six);
+    border-right: solid 0.2vw var(--color-six);
+}
+
+.header-nav-item:hover {
+    background-color: var(--color-six);
+    color: var(--color-seven);
+}
+
+.left:hover {
+    border-radius: 5vw 0 0 5vw;
+}
+
+.right:hover {
+    border-radius: 0 5vw 5vw 0;
+}

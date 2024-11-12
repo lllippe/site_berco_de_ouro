@@ -1,0 +1,31 @@
+.content {
+    background-color: var(--color-five);
+}
+
+.content-h2 {
+    font-family: var(--font-title-h1);
+    font-weight: 400;
+    font-size: 8vw;
+    text-align: center;
+    color: var(--color-two);
+    padding: 4vw 0;
+}
+
+.content-paragraph {
+    font-family: var(--font-two);
+    font-weight: 200;
+    font-size: 4vw;
+    text-align: center;
+    color: var(--color-two);
+    padding-bottom: 2vw;
+}
+
+.content-list {
+    text-align: left;
+    padding: 4vw 23vw 4vw 28vw;
+    list-style-type: circle;
+    color: var(--color-two);
+    font-family: var(--font-tree);
+    font-size: 2vw;
+    color: var(--color-two);
+}

@@ -1,0 +1,27 @@
+@import url("header.css");
+@import url("curso.css");
+@import url("content.css");
+@import url("quem-somos.css");
+@import url("footer.css");
+@import url("previous-content.css");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Exo:ital,wght@0,100..900;1,100..900&family=Fredericka+the+Great&family=Indie+Flower&family=Permanent+Marker&family=Signika:wght@300..700&display=swap');
+
+:root {
+    --font-title-h1: "Fredericka the Great";
+    --font-one: "Exo";
+    --font-two: "Concert One";
+    --font-tree: "Indie Flower";
+    --font-four: "Permanent Marker";
+    --color-one: #789DBC;
+    --color-two: #FFE3E3;
+    --color-tree: #FEF9F2;
+    --color-four: #C9E9D2;
+    --color-five: #605678;
+    --color-six: #257180;
+    --color-seven: #FD8B51;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

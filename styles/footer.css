@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-seven);
+}
+
+.footer-h2 {
+    font-family: var(--font-title-h1);
+    font-size: 2vw;
+    font-weight: 500;
+    padding: 2vw 0;
+    color: var(--color-tree);
+}
+
+.footer-paragraph {
+    font-family: var(--font-tree);
+    font-size: 2vw;
+    color: var(--color-tree);
+}
+
+.footer-developer {
+    font-family: var(--font-four);
+    font-size: 2vw;
+    padding: 2vw 0;
+    color: var(--color-tree);
+}

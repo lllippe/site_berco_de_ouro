@@ -21,3 +21,19 @@
 .swipers-desktop {
     padding: 3vw 0;
 }
+
+.img-swiper {
+    height: 20vw;
+}
+
+.swiper-pictures {
+    margin-top: 15vw;
+    margin-bottom: 5vw;
+}
+
+.previous-content-paragraph-course {
+    font-family: var(--font-two);
+    font-size: 2vw;
+    color: var(--color-six);
+    padding-bottom: 3vw;
+}

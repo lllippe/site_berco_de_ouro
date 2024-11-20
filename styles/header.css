@@ -15,7 +15,9 @@
 }
 
 .header-nav-item {
-    padding: 0 3vw;
+    padding: 0 2.5vw;
+    text-decoration: none;
+    color: var(--color-six);
 }
 
 .header-nav-outline {
@@ -23,9 +25,17 @@
     border-right: solid 0.2vw var(--color-six);
 }
 
+.dead-center {
+    border-left: solid 0.2vw var(--color-six);
+}
+
 .header-nav-item:hover {
     background-color: var(--color-six);
-    color: var(--color-seven);
+    color: white;
+}
+
+.left, .right {
+    width: 5%;
 }
 
 .left:hover {

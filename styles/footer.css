@@ -25,4 +25,14 @@
     font-size: 2vw;
     padding: 2vw 0;
     color: var(--color-tree);
+    text-decoration: none;
+}
+
+.link-developer {
+    color: var(--color-tree);
+    text-decoration: none;
+}
+
+.link-developer:hover {
+    font-size: 3vw;
 }

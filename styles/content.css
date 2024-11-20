@@ -29,3 +29,20 @@
     font-size: 2vw;
     color: var(--color-two);
 }
+
+@media screen and (max-width:540px) {
+    .content-h2 {
+        padding: 6vw 0;
+        font-size: 9vw;
+    }
+
+    .content-paragraph {
+        font-size: 5vw;
+    }
+
+    
+    .content-list {
+        font-size: 3vw;
+        padding: 4vw 13vw 10vw 20vw;
+    }
+}

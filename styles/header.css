@@ -5,6 +5,10 @@
     height: 48vw;
 }
 
+.header-mobile {
+    display: none;
+}
+
 .header-nav {
     display: flex;
     font-size: 1.8vw;
@@ -34,8 +38,12 @@
     color: white;
 }
 
-.left, .right {
+.left {
     width: 5%;
+}
+
+.right {
+    width: 11%;
 }
 
 .left:hover {
@@ -44,4 +52,18 @@
 
 .right:hover {
     border-radius: 0 5vw 5vw 0;
+}
+
+@media screen and (max-width:540px) {
+    .header {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+        background-image: url("../assets/img/berco_de_ouro_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 60vw;
+    }
 }

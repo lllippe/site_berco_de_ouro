@@ -37,3 +37,18 @@
     color: var(--color-six);
     padding-bottom: 3vw;
 }
+
+@media screen and (max-width:540px) {
+    .previous-content-h2 {
+        font-size: 9vw;
+    }    
+
+    .previous-content-paragraph {
+        font-size: 5vw;
+        padding: 6vw 0;
+    }
+
+    .previous-content-paragraph-course {
+        font-size: 4vw;
+    }
+}

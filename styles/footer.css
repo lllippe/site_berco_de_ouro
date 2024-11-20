@@ -36,3 +36,21 @@
 .link-developer:hover {
     font-size: 3vw;
 }
+
+@media screen and (max-width:540px) {
+    .footer-h2 {
+        font-size: 4vw;
+    }    
+
+    .footer {
+        padding: 2vw 0;
+    }
+
+    .footer-paragraph {
+        font-size: 3.2vw;
+    }
+
+    .footer-developer {
+        font-size: 3.5vw;
+    }
+}

@@ -30,7 +30,7 @@
     color: var(--color-two);
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:800px) {
     .content-h2 {
         padding: 6vw 0;
         font-size: 9vw;

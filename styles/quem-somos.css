@@ -56,7 +56,11 @@
     padding-right: 8vw;
 }
 
-@media screen and (max-width:540px) {
+.mobile-size {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
     .quem-somos-h2 {
         font-size: 10vw;
         padding: 6  vw 0;
@@ -70,15 +74,35 @@
         font-size: 7vw;
     }
 
+    .quem-somos-img {
+        height: 45vw;
+        padding-left: 4vw;
+    }
+
     .quem-somos-description {
         font-size: 3vw;
+        padding: 2vw 6vw;
     }
 
     .one {
-        padding-top: 50vw;
+        padding-top: 0vw;
     }
 
     .who-right {
-        padding-top: 30vw;
+        padding-top: 8vw;
+    }
+
+    .full-size {
+        display: none;
+    }
+
+    .mobile-size {
+        display: block;
+        padding-top: 7vw;
+        padding-bottom: 0vw;
+    }
+
+    .redefine-padding {
+        padding-top: 0;
     }
 }

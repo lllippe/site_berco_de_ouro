@@ -19,7 +19,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:800px) {
     .h1 {
         font-size: 9vw;
         padding: 6vw 0;

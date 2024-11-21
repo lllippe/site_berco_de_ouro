@@ -38,7 +38,7 @@
     padding-bottom: 3vw;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:800px) {
     .previous-content-h2 {
         font-size: 9vw;
     }    
